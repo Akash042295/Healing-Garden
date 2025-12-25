@@ -1,0 +1,21 @@
+/* src/index.css */
+
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset & base styling - Applying to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  background-color: #9af896; /* Base background color */
+}
+
+/* You can move some of the generic styles from style.css here if desired, 
+   but it is often better to keep component-specific styles in App.css or a module. */

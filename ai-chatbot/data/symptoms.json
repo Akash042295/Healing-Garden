@@ -1,0 +1,617 @@
+{
+  "cough": {
+    "mild": {
+      "questions": ["How long have you been coughing?", "Any fever or chest pain?"],
+      "remedies": ["Warm turmeric milk", "Ginger tea", "Stay hydrated"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it dry or with blood?", "Do you have trouble breathing?"],
+      "remedies": ["Consult a doctor immediately"],
+      "severity": "high"
+    }
+  },
+  "fever": {
+    "mild": {
+      "questions": ["Is it a low-grade fever?", "Any chills or sweating?"],
+      "remedies": ["Take rest", "Drink fluids", "Use paracetamol if needed"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is the temperature above 102°F?", "Are there rashes or confusion?"],
+      "remedies": ["Seek medical attention", "Stay hydrated"],
+      "severity": "high"
+    }
+  },
+  "headache": {
+    "mild": {
+      "questions": ["Is it stress-related?", "Did you get enough sleep?"],
+      "remedies": ["Apply balm", "Take rest", "Hydrate well"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Do you feel nausea or vision issues?", "Is the pain sharp and sudden?"],
+      "remedies": ["Consult a neurologist", "Avoid bright lights"],
+      "severity": "high"
+    }
+  },
+  "vomiting": {
+    "mild": {
+      "questions": ["How many times have you vomited?", "Did you eat something unusual?"],
+      "remedies": ["ORS", "Ginger water", "Eat bland foods"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is there blood in vomit?", "Are you feeling faint or dehydrated?"],
+      "remedies": ["Seek emergency care"],
+      "severity": "high"
+    }
+  },
+  "diarrhea": {
+    "mild": {
+      "questions": ["How many times a day?", "Any stomach cramps?"],
+      "remedies": ["ORS", "Banana or curd rice", "Avoid oily food"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it lasting more than 2 days?", "Are you extremely weak or dizzy?"],
+      "remedies": ["Consult a doctor", "IV fluids may be needed"],
+      "severity": "high"
+    }
+  },
+  "fatigue": {
+    "mild": {
+      "questions": ["Are you sleeping enough?", "Have you been under stress?"],
+      "remedies": ["Iron-rich diet", "Short naps", "Stay hydrated"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it lasting for weeks?", "Any unexplained weight loss?"],
+      "remedies": ["Visit a physician", "Consider blood tests"],
+      "severity": "high"
+    }
+  },
+  "sore throat": {
+    "mild": {
+      "questions": ["Is it painful while swallowing?", "Do you have a runny nose?"],
+      "remedies": ["Saltwater gargle", "Warm fluids", "Honey and lemon tea"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it persistent for more than 3 days?", "Any fever or pus in throat?"],
+      "remedies": ["Antibiotics may be required", "Doctor consultation"],
+      "severity": "high"
+    }
+  },
+  "cold": {
+    "mild": {
+      "questions": ["Do you have a runny nose or sneezing?", "Any throat discomfort?"],
+      "remedies": ["Steam inhalation", "Rest and warm fluids"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Any sinus pain?", "Fever lasting more than 3 days?"],
+      "remedies": ["Consult ENT", "May need antibiotics"],
+      "severity": "high"
+    }
+  },
+  "chest pain": {
+    "mild": {
+      "questions": ["Is it sharp or dull?", "Does it worsen with movement?"],
+      "remedies": ["Rest", "Avoid heavy lifting"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Does it radiate to arm or jaw?", "Are you short of breath?"],
+      "remedies": ["Seek emergency care immediately"],
+      "severity": "high"
+    }
+  },
+  "shortness of breath": {
+    "mild": {
+      "questions": ["Is it due to exertion?", "Do you have asthma?"],
+      "remedies": ["Sit and rest", "Use inhaler if prescribed"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it sudden or constant?", "Any chest tightness or wheezing?"],
+      "remedies": ["Call ambulance", "Oxygen support may be needed"],
+      "severity": "high"
+    }
+  },
+    "dizziness": {
+    "mild": {
+      "questions": ["Did you skip meals?", "Did you sleep well?"],
+      "remedies": ["Lie down", "Drink water", "Eat something sweet"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it recurrent?", "Do you experience fainting or blurred vision?"],
+      "remedies": ["Visit neurologist", "May need MRI or blood tests"],
+      "severity": "high"
+    }
+  },
+  "back pain": {
+    "mild": {
+      "questions": ["Is it after lifting heavy items?", "Any posture issues?"],
+      "remedies": ["Apply hot/cold compress", "Gentle stretches"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is the pain radiating to the legs?", "Any numbness or tingling?"],
+      "remedies": ["Consult orthopedic specialist"],
+      "severity": "high"
+    }
+  },
+  "rash": {
+    "mild": {
+      "questions": ["Is it itchy or red?", "Any recent allergy or insect bite?"],
+      "remedies": ["Calamine lotion", "Avoid scratching", "Antihistamine if needed"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it spreading rapidly?", "Any swelling or pus?"],
+      "remedies": ["Consult dermatologist", "May need prescription cream"],
+      "severity": "high"
+    }
+  },
+  "eye irritation": {
+    "mild": {
+      "questions": ["Is it due to dust or screen time?", "Any redness or dryness?"],
+      "remedies": ["Use lubricating drops", "Avoid rubbing"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is there discharge?", "Do you feel vision changes?"],
+      "remedies": ["Consult an ophthalmologist"],
+      "severity": "high"
+    }
+  },
+  "ear pain": {
+    "mild": {
+      "questions": ["Is it due to cold?", "Any itching or wax?"],
+      "remedies": ["Warm compress", "Ear drops if prescribed"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Any discharge or fever?", "Trouble hearing?"],
+      "remedies": ["Doctor consultation", "Antibiotics may be needed"],
+      "severity": "high"
+    }
+  },
+  "insomnia": {
+    "mild": {
+      "questions": ["Do you use phone before bed?", "Stress or caffeine intake?"],
+      "remedies": ["Avoid screens before sleep", "Herbal tea", "Follow sleep routine"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it affecting daily function?", "Do you have anxiety or depression?"],
+      "remedies": ["Consult psychiatrist", "CBT or medication"],
+      "severity": "high"
+    }
+  },
+  "joint pain": {
+    "mild": {
+      "questions": ["Any injury or strain?", "Localized or general pain?"],
+      "remedies": ["Apply hot pack", "Gentle movement", "Pain relief gel"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Swelling or stiffness?", "Chronic condition like arthritis?"],
+      "remedies": ["Orthopedic consultation", "May need X-ray or medication"],
+      "severity": "high"
+    }
+  },
+  "loss of appetite": {
+    "mild": {
+      "questions": ["Are you stressed?", "Any recent illness?"],
+      "remedies": ["Eat small frequent meals", "Include fruits and fluids"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Any weight loss?", "Any vomiting or diarrhea?"],
+      "remedies": ["Visit a doctor for diagnosis"],
+      "severity": "high"
+    }
+  },
+  "burning urination": {
+    "mild": {
+      "questions": ["How long has this been happening?", "Any lower abdominal pain?"],
+      "remedies": ["Drink cranberry juice", "Increase water intake"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Any blood in urine?", "Fever or chills?"],
+      "remedies": ["Consult urologist", "Antibiotics may be required"],
+      "severity": "high"
+    }
+  },
+  "nosebleed": {
+    "mild": {
+      "questions": ["Do you live in dry climate?", "Do you pick your nose often?"],
+      "remedies": ["Pinch nose and tilt forward", "Use humidifier"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it frequent or heavy?", "Any blood thinning medications?"],
+      "remedies": ["Consult ENT doctor", "Medical intervention may be needed"],
+      "severity": "high"
+    }
+  },
+  "indigestion": {
+    "mild": {
+      "questions": ["Is it after eating spicy or oily food?", "Do you feel bloated?"],
+      "remedies": ["Eat light meals", "Drink warm water", "Use antacids if needed"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Does it persist for several days?", "Any vomiting or weight loss?"],
+      "remedies": ["Consult a gastroenterologist", "May need endoscopy"],
+      "severity": "high"
+    }
+  },
+  "constipation": {
+    "mild": {
+      "questions": ["Are you drinking enough water?", "Is your diet low in fiber?"],
+      "remedies": ["Increase fiber intake", "Stay hydrated", "Exercise regularly"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Has it lasted more than 3 days?", "Any abdominal pain or blood in stool?"],
+      "remedies": ["See a doctor", "May require laxatives or stool softeners"],
+      "severity": "high"
+    }
+  },
+  "abdominal pain": {
+    "mild": {
+      "questions": ["Is it related to eating?", "Is the pain dull or crampy?"],
+      "remedies": ["Warm compress", "Drink water", "Avoid heavy food"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it sharp and sudden?", "Any vomiting or fever?"],
+      "remedies": ["Seek immediate medical care"],
+      "severity": "high"
+    }
+  },
+  "acidity": {
+    "mild": {
+      "questions": ["Do you feel heartburn?", "Is it after meals or lying down?"],
+      "remedies": ["Avoid spicy foods", "Sleep with head elevated", "Use antacids"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is there chest pain or frequent burping?", "Any weight loss?"],
+      "remedies": ["Consult doctor", "May require endoscopy or prescription medication"],
+      "severity": "high"
+    }
+  },
+  "palpitations": {
+    "mild": {
+      "questions": ["Is it after caffeine or stress?", "Does it stop on rest?"],
+      "remedies": ["Practice deep breathing", "Reduce caffeine intake"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it frequent or with dizziness?", "Any history of heart issues?"],
+      "remedies": ["Visit cardiologist", "ECG or Holter monitoring may be required"],
+      "severity": "high"
+    }
+  },
+  "high blood pressure": {
+    "mild": {
+      "questions": ["Is it stress-related?", "Are you monitoring it regularly?"],
+      "remedies": ["Reduce salt", "Regular exercise", "Relaxation techniques"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it above 140/90 consistently?", "Any headaches or blurred vision?"],
+      "remedies": ["Consult physician", "May need medication"],
+      "severity": "high"
+    }
+  },
+  "low blood pressure": {
+    "mild": {
+      "questions": ["Do you feel dizzy when standing?", "Are you eating and drinking well?"],
+      "remedies": ["Drink fluids", "Eat small salty meals", "Avoid sudden posture changes"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Do you faint or feel confused?", "Any signs of shock?"],
+      "remedies": ["Seek emergency care", "IV fluids may be required"],
+      "severity": "high"
+    }
+  },
+  "blurred vision": {
+    "mild": {
+      "questions": ["Is it after screen use or lack of sleep?", "Any eye strain?"],
+      "remedies": ["Rest your eyes", "Use lubricating drops"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Sudden or one-sided vision loss?", "Any pain or flashing lights?"],
+      "remedies": ["Consult ophthalmologist immediately"],
+      "severity": "high"
+    }
+  },
+  "sweating": {
+    "mild": {
+      "questions": ["Is it due to heat or activity?", "Do you sweat more than others?"],
+      "remedies": ["Wear breathable clothing", "Stay cool and hydrated"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it with chest pain or fainting?", "Night sweats or fever?"],
+      "remedies": ["Medical evaluation needed", "Could indicate infection or heart issue"],
+      "severity": "high"
+    }
+  },
+  "tremors": {
+    "mild": {
+      "questions": ["Is it after caffeine or nervousness?", "Do they go away with rest?"],
+      "remedies": ["Limit caffeine", "Practice relaxation techniques"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Persistent or increasing tremors?", "Any family history or head trauma?"],
+      "remedies": ["Neurological evaluation required"],
+      "severity": "high"
+    }
+  },
+  "weight loss": {
+    "mild": {
+      "questions": ["Are you eating less than usual?", "Are you exercising more?"],
+      "remedies": ["Increase calorie intake", "Consult dietitian"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it unintentional?", "Any weakness or fatigue?"],
+      "remedies": ["Medical evaluation required for chronic illness"],
+      "severity": "high"
+    }
+  },
+  "weight gain": {
+    "mild": {
+      "questions": ["Is it due to inactivity or overeating?", "Recent dietary changes?"],
+      "remedies": ["Exercise daily", "Eat balanced meals"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Sudden weight gain?", "Any swelling or hormonal symptoms?"],
+      "remedies": ["Consult endocrinologist", "May require tests"],
+      "severity": "high"
+    }
+  },
+  "anxiety": {
+    "mild": {
+      "questions": ["Is it situational or constant?", "Can you control it with breathing?"],
+      "remedies": ["Meditation", "Deep breathing", "Limit caffeine"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Does it cause panic attacks?", "Affecting daily tasks?"],
+      "remedies": ["Psychiatric consultation", "CBT or medication may help"],
+      "severity": "high"
+    }
+  },
+  "depression": {
+    "mild": {
+      "questions": ["Do you feel sad or hopeless lately?", "Can you find joy in anything?"],
+      "remedies": ["Talk to a friend", "Try journaling", "Exercise regularly"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Do you feel worthless?", "Thoughts of self-harm or death?"],
+      "remedies": ["Seek professional therapy", "Emergency mental health help may be needed"],
+      "severity": "high"
+    }
+  },
+  "heatstroke": {
+    "mild": {
+      "questions": ["Were you out in the sun for long?", "Any fatigue or sweating?"],
+      "remedies": ["Rest in cool place", "Hydrate with water and electrolytes"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["High body temp and confusion?", "Rapid heartbeat or fainting?"],
+      "remedies": ["Seek emergency care immediately"],
+      "severity": "high"
+    }
+  },
+  "sunburn": {
+    "mild": {
+      "questions": ["Was skin exposed to sun?", "Is the area red or itchy?"],
+      "remedies": ["Aloe vera gel", "Cool compress", "Avoid further exposure"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Blistering or severe peeling?", "Fever or dehydration?"],
+      "remedies": ["Seek medical attention", "Hydrate and apply medicated ointment"],
+      "severity": "high"
+    }
+  },
+  "itchiness": {
+    "mild": {
+      "questions": ["Any bug bite or allergy?", "Localized or general?"],
+      "remedies": ["Anti-itch cream", "Cool bath", "Avoid scratching"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Persistent or severe itching?", "Rash, swelling or blisters?"],
+      "remedies": ["Consult dermatologist", "Antihistamines or steroid cream"],
+      "severity": "high"
+    }
+  },
+  "swelling": {
+    "mild": {
+      "questions": ["Is it from minor injury?", "Is it tender or red?"],
+      "remedies": ["Elevate limb", "Cold compress", "Rest area"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it rapidly increasing?", "Breathing issues or pain?"],
+      "remedies": ["Seek emergency care — may be allergic reaction or clot"],
+      "severity": "high"
+    }
+  },
+  "numbness": {
+    "mild": {
+      "questions": ["Is it after sitting/sleeping in one position?", "Does it go away quickly?"],
+      "remedies": ["Move affected area", "Improve posture"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Persistent numbness?", "Any weakness or paralysis?"],
+      "remedies": ["Neurological checkup recommended"],
+      "severity": "high"
+    }
+  },
+  "frequent urination": {
+    "mild": {
+      "questions": ["Are you drinking more fluids?", "Any caffeine intake?"],
+      "remedies": ["Limit fluids before bed", "Avoid caffeine"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Painful urination?", "Blood in urine or fever?"],
+      "remedies": ["See a urologist — possible infection or diabetes"],
+      "severity": "high"
+    }
+  },
+  "yellow eyes": {
+    "mild": {
+      "questions": ["Did it appear recently?", "Any tiredness or loss of appetite?"],
+      "remedies": ["Drink water", "Eat light and avoid oily food"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Accompanied by dark urine or pale stool?", "Fever or vomiting?"],
+      "remedies": ["Consult liver specialist immediately"],
+      "severity": "high"
+    }
+  },
+  
+  "light sensitivity": {
+    "mild": {
+      "questions": ["Is the light sensitivity occasional?", "Does it improve with rest or home care?"],
+      "remedies": ["Monitor the light sensitivity", "Stay hydrated", "Use gentle self-care techniques"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is the light sensitivity frequent or worsening?", "Is it affecting daily activities?"],
+      "remedies": ["Consult a specialist", "Further diagnosis may be needed"],
+      "severity": "high"
+    }
+  },
+  "difficulty swallowing": {
+    "mild": {
+      "questions": ["Is the difficulty swallowing occasional?", "Does it improve with rest or home care?"],
+      "remedies": ["Monitor the difficulty swallowing", "Stay hydrated", "Use gentle self-care techniques"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is the difficulty swallowing frequent or worsening?", "Is it affecting daily activities?"],
+      "remedies": ["Consult a specialist", "Further diagnosis may be needed"],
+      "severity": "high"
+    }
+  },
+  "choking": {
+    "mild": {
+      "questions": ["Is the choking rare or momentary?", "Do you cough it out quickly?"],
+      "remedies": ["Eat slowly", "Avoid talking while eating", "Drink water carefully"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Do you choke frequently?", "Do you require help or gasp for air?"],
+      "remedies": ["Emergency care may be required", "Check for swallowing disorders"],
+      "severity": "high"
+    }
+  },
+  "joint stiffness": {
+    "mild": {
+      "questions": ["Is it after waking up or inactivity?", "Does movement relieve it?"],
+      "remedies": ["Stretch regularly", "Use warm compress"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it persistent throughout the day?", "Any swelling or joint pain?"],
+      "remedies": ["Consult a rheumatologist", "May need X-rays or blood tests"],
+      "severity": "high"
+    }
+  },
+  "irregular periods": {
+    "mild": {
+      "questions": ["Is it stress-related?", "Recent weight changes or travel?"],
+      "remedies": ["Track cycle", "Eat healthy", "Reduce stress"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Frequent missed cycles?", "Any heavy bleeding or pain?"],
+      "remedies": ["Consult gynecologist", "Hormonal tests may be needed"],
+      "severity": "high"
+    }
+  },
+  "cramps": {
+    "mild": {
+      "questions": ["Are they occasional or during menstruation?", "Do they go away with rest?"],
+      "remedies": ["Warm pad", "Hydrate", "Gentle stretches"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Do they wake you up or disrupt activity?", "Are they accompanied by swelling or fever?"],
+      "remedies": ["Consult a doctor", "Further tests may be needed"],
+      "severity": "high"
+    }
+  },
+  "bloating": {
+    "mild": {
+      "questions": ["Is it after meals?", "Do you feel gas or heaviness?"],
+      "remedies": ["Avoid carbonated drinks", "Eat slowly", "Use fennel or peppermint"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Lasting all day?", "Pain, vomiting or change in stool?"],
+      "remedies": ["Consult gastroenterologist", "May need imaging"],
+      "severity": "high"
+    }
+  },
+  "dry skin": {
+    "mild": {
+      "questions": ["Is it seasonal or weather-related?", "Do moisturizers help?"],
+      "remedies": ["Apply moisturizer", "Use gentle soap", "Avoid hot showers"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Cracks, bleeding or persistent flakes?", "Any itch or infection?"],
+      "remedies": ["Consult dermatologist", "Use medicated creams"],
+      "severity": "high"
+    }
+  },
+  "loss of taste": {
+    "mild": {
+      "questions": ["Is it due to cold or allergy?", "Partial or temporary?"],
+      "remedies": ["Treat underlying cause", "Rinse mouth", "Zinc-rich foods"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Is it sudden and complete?", "Any history of COVID or head injury?"],
+      "remedies": ["Consult ENT", "May require smell/taste tests"],
+      "severity": "high"
+    }
+  },
+  "loss of smell": {
+    "mild": {
+      "questions": ["Do you have nasal congestion?", "Any seasonal allergies?"],
+      "remedies": ["Steam inhalation", "Clear nasal passages"],
+      "severity": "low"
+    },
+    "severe": {
+      "questions": ["Complete and persistent loss?", "Related to head trauma or illness?"],
+      "remedies": ["ENT evaluation", "MRI may be needed"],
+      "severity": "high"
+    }
+  }
+}
+
+
